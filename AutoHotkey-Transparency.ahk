@@ -122,7 +122,7 @@ SetWindowTransparency()
 	NewTransparency := CurrentTransparency - 16
 	If NewTransparency > 0
 	{
-		WinSetTransparent(NewTransparency,"A")
+		WinSetTransparent(NewTransparency, "A")
 	}
 	Else
 	{
